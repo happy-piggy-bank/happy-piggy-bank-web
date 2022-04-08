@@ -1,0 +1,36 @@
+.myPageBodyArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myPageBoxArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border-radius: 30px;
+  background: whitesmoke;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.myPageUserEmailArea,
+.myPageUserNameArea,
+.myPageUserPwArea {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.myUserInfoLabel {
+  font-weight: bold;
+  font-size: 2.5vh;
+}
+
+.memberLeave {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: #800000;
+}

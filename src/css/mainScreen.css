@@ -1,0 +1,11 @@
+.mainBodyArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContentArea {
+    width: 90%;
+    text-align: center;
+    font-size: 2.5vh;
+}

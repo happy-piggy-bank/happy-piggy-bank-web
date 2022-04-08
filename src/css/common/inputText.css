@@ -1,0 +1,26 @@
+.inputTextContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inputTextInputArea {
+  width: 100%;
+  border-radius: 20px;
+  border: #deb887 solid 1px;
+  padding: 20px;
+  font-family: NanumBarunpen, sans-serif;
+  font-size: 2vh;
+  resize: none;
+}
+
+.inputTextInputArea:hover {
+  border-color: #a0522d;
+}
+
+.inputTextInputArea:focus {
+  outline-color: #a0522d;
+}
